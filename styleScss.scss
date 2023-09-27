@@ -1,0 +1,194 @@
+@mixin smallTitlu {
+    font-size: 2rem;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+@mixin mediumTitlu {
+    font-size: 3rem;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+@mixin largeTitlu {
+    font-size: 4rem;
+    line-height: 60px;
+    font-weight: 800;
+}
+
+@mixin smallParagraf {
+    font-size: 1rem;
+    line-height: 10px;
+    font-weight: 300;
+}
+
+@mixin mediumParagraf {
+    font-size: 2rem;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+@mixin largeParagraf {
+    font-size: 3rem;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+@mixin phone {
+    @media (min-width: 779px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: 780px) (max-width: 1023) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin textulMeu1 {
+    height: 20px ;
+    color: black;
+    width: 100px;
+} 
+
+.titlu1 {
+    @include phone {
+        @include smallTitlu; 
+    }
+    @include tablet {
+        @include mediumTitlu;
+    }
+    @include desktop {
+        @include largeTitlu; 
+    }
+}
+
+.paragraf1 {
+    @include phone {
+        @include smallParagraf; 
+    }
+    @include tablet {
+        @include mediumParagraf; 
+    }
+    @include desktop {
+        @include largeParagraf; 
+    }
+}
+
+
+.titlu2 {
+    @include phone {
+        @include smallTitlu; 
+    }
+    @include tablet {
+        @include mediumTitlu;
+    }
+    @include desktop {
+        @include largeTitlu; 
+    }
+}
+
+.paragraf2 {
+    @include phone {
+        @include smallParagraf; 
+    }
+    @include tablet {
+        @include mediumParagraf; 
+    }
+    @include desktop {
+        @include largeParagraf; 
+    }
+}
+
+.titlu3 {
+    @include phone {
+        @include smallTitlu; 
+    }
+    @include tablet {
+        @include mediumTitlu;
+    }
+    @include desktop {
+        @include largeTitlu; 
+    }
+}
+
+.paragraf3 {
+    @include phone {
+        @include smallParagraf; 
+    }
+    @include tablet {
+        @include mediumParagraf; 
+    }
+    @include desktop {
+        @include largeParagraf; 
+    }
+}
+
+
+.titlu4 {
+    @include phone {
+        @include smallTitlu; 
+    }
+    @include tablet {
+        @include mediumTitlu;
+    }
+    @include desktop {
+        @include largeTitlu; 
+    }
+}
+
+.paragraf4 {
+    @include phone {
+        @include smallParagraf; 
+    }
+    @include tablet {
+        @include mediumParagraf; 
+    }
+    @include desktop {
+        @include largeParagraf; 
+    }
+}
+
+
+.titlu5 {
+    @include phone {
+        @include smallTitlu; 
+    }
+    @include tablet {
+        @include mediumTitlu;
+    }
+    @include desktop {
+        @include largeTitlu; 
+    }
+}
+
+.paragraf5 {
+    @include phone {
+        @include smallParagraf; 
+    }
+    @include tablet {
+        @include mediumParagraf; 
+    }
+    @include desktop {
+        @include largeParagraf; 
+    }
+}
+
+       
+.textulMeu1 {
+    @include textulMeu1 {
+        border: 1px solid red;
+    }
+  
+}
+
+.textulMeu2 {
+    border: 1px solid blue;
+}
