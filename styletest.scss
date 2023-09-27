@@ -41,7 +41,7 @@
 }
 
 @mixin tablet {
-    @media (min-width: 780px) (max-width: 1023) {
+    @media (min-width: 780px) and (max-width: 1023) {
         @content;
     }
 }
@@ -52,11 +52,7 @@
     }
 }
 
-@mixin textulMeu1 {
-    height: 20px ;
-    color: black;
-    width: 100px;
-} 
+ 
 
 .titlu1 {
     @include phone {
@@ -181,14 +177,4 @@
     }
 }
 
-       
-.textulMeu1 {
-    @include textulMeu1 {
-        border: 1px solid red;
-    }
-  
-}
 
-.textulMeu2 {
-    border: 1px solid blue;
-}

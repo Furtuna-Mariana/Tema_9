@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Roboto&display=swap');
+
+@mixin text ($w: 100px, $h: 100px, $color: black) {
+height: $h;
+width: $w;
+color: $color;
+border: 1px solid red;
+}
+
+.elementul1 {
+        @include text;
+        font-family: 'Roboto', sans-serif;
+}
+
+.elenentul2 {
+    font-family: 'Martian Mono', monospace;
+        @include text (200px, 130px, blue);
+}
+
+
+
+

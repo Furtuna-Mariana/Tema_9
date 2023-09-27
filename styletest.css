@@ -1,0 +1,219 @@
+@media (min-width: 779px) {
+  .titlu1 {
+    font-size: 2rem;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+@media (min-width: 780px) and (max-width: 1023) {
+  .titlu1 {
+    font-size: 3rem;
+    line-height: 40px;
+    font-weight: 600;
+  }
+}
+@media (min-width: 1024px) {
+  .titlu1 {
+    font-size: 4rem;
+    line-height: 60px;
+    font-weight: 800;
+  }
+}
+
+@media (min-width: 779px) {
+  .paragraf1 {
+    font-size: 1rem;
+    line-height: 10px;
+    font-weight: 300;
+  }
+}
+@media (min-width: 780px) and (max-width: 1023) {
+  .paragraf1 {
+    font-size: 2rem;
+    line-height: 30px;
+    font-weight: 500;
+  }
+}
+@media (min-width: 1024px) {
+  .paragraf1 {
+    font-size: 3rem;
+    line-height: 50px;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 779px) {
+  .titlu2 {
+    font-size: 2rem;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+@media (min-width: 780px) and (max-width: 1023) {
+  .titlu2 {
+    font-size: 3rem;
+    line-height: 40px;
+    font-weight: 600;
+  }
+}
+@media (min-width: 1024px) {
+  .titlu2 {
+    font-size: 4rem;
+    line-height: 60px;
+    font-weight: 800;
+  }
+}
+
+@media (min-width: 779px) {
+  .paragraf2 {
+    font-size: 1rem;
+    line-height: 10px;
+    font-weight: 300;
+  }
+}
+@media (min-width: 780px) and (max-width: 1023) {
+  .paragraf2 {
+    font-size: 2rem;
+    line-height: 30px;
+    font-weight: 500;
+  }
+}
+@media (min-width: 1024px) {
+  .paragraf2 {
+    font-size: 3rem;
+    line-height: 50px;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 779px) {
+  .titlu3 {
+    font-size: 2rem;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+@media (min-width: 780px) and (max-width: 1023) {
+  .titlu3 {
+    font-size: 3rem;
+    line-height: 40px;
+    font-weight: 600;
+  }
+}
+@media (min-width: 1024px) {
+  .titlu3 {
+    font-size: 4rem;
+    line-height: 60px;
+    font-weight: 800;
+  }
+}
+
+@media (min-width: 779px) {
+  .paragraf3 {
+    font-size: 1rem;
+    line-height: 10px;
+    font-weight: 300;
+  }
+}
+@media (min-width: 780px) and (max-width: 1023) {
+  .paragraf3 {
+    font-size: 2rem;
+    line-height: 30px;
+    font-weight: 500;
+  }
+}
+@media (min-width: 1024px) {
+  .paragraf3 {
+    font-size: 3rem;
+    line-height: 50px;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 779px) {
+  .titlu4 {
+    font-size: 2rem;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+@media (min-width: 780px) and (max-width: 1023) {
+  .titlu4 {
+    font-size: 3rem;
+    line-height: 40px;
+    font-weight: 600;
+  }
+}
+@media (min-width: 1024px) {
+  .titlu4 {
+    font-size: 4rem;
+    line-height: 60px;
+    font-weight: 800;
+  }
+}
+
+@media (min-width: 779px) {
+  .paragraf4 {
+    font-size: 1rem;
+    line-height: 10px;
+    font-weight: 300;
+  }
+}
+@media (min-width: 780px) and (max-width: 1023) {
+  .paragraf4 {
+    font-size: 2rem;
+    line-height: 30px;
+    font-weight: 500;
+  }
+}
+@media (min-width: 1024px) {
+  .paragraf4 {
+    font-size: 3rem;
+    line-height: 50px;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 779px) {
+  .titlu5 {
+    font-size: 2rem;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+@media (min-width: 780px) and (max-width: 1023) {
+  .titlu5 {
+    font-size: 3rem;
+    line-height: 40px;
+    font-weight: 600;
+  }
+}
+@media (min-width: 1024px) {
+  .titlu5 {
+    font-size: 4rem;
+    line-height: 60px;
+    font-weight: 800;
+  }
+}
+
+@media (min-width: 779px) {
+  .paragraf5 {
+    font-size: 1rem;
+    line-height: 10px;
+    font-weight: 300;
+  }
+}
+@media (min-width: 780px) and (max-width: 1023) {
+  .paragraf5 {
+    font-size: 2rem;
+    line-height: 30px;
+    font-weight: 500;
+  }
+}
+@media (min-width: 1024px) {
+  .paragraf5 {
+    font-size: 3rem;
+    line-height: 50px;
+    font-weight: 700;
+  }
+}/*# sourceMappingURL=styletest.css.map */
